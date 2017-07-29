@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "464701795975",
+    "firebase_url": "https://freshercampus-bbc0e.firebaseio.com",
+    "project_id": "freshercampus-bbc0e",
+    "storage_bucket": "freshercampus-bbc0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464701795975:android:12d8fc1eaed72b2d",
+        "android_client_info": {
+          "package_name": "com.example.student.fc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464701795975-abfnsd1aidkv2oqhhth8rbtgnj0bbgru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.student.fc",
+            "certificate_hash": "9add40085fca9081a1a55881a45f3ebb22de984b"
+          }
+        },
+        {
+          "client_id": "464701795975-v01jlh8kppgas69e4qi8l8k8lspks628.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJfido2sOfeEKed985GRhctAWomQ9C1pU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464701795975-v01jlh8kppgas69e4qi8l8k8lspks628.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item android:title="Access">
+            <menu>
+        <item
+            android:id="@+id/nav_onCampus"
+            android:icon="@drawable/oncampus"
+            android:title="On Campus" />
+        <item
+            android:id="@+id/nav_offCampus"
+            android:icon="@drawable/offcampus"
+            android:title="Off Campus" />
+
+        <item
+            android:id="@+id/nav_walkin"
+            android:icon="@drawable/walkin"
+            android:title="Walk In" />
+
+                <item
+                    android:id="@+id/nav_blog"
+                    android:icon="@drawable/blog1"
+                    android:title="Blog" />
+            </menu>
+        </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/fb"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_plus"
+                android:icon="@drawable/googleplus"
+                android:title="Google+" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/twitter"
+                android:title="Twitter" />
+        </menu>
+    </item>
+
+</menu>

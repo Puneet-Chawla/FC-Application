@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.fc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            </activity>
+        <activity android:name=".SlpashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OFFcampus" />
+        <activity android:name=".ONcampus" />
+        <activity android:name=".Walkin" />
+        <activity android:name=".delhi" />
+        <activity android:name=".mumbai" />
+        <activity android:name=".noida" />
+        <activity android:name=".banglore" />
+        <activity android:name=".hyderabad" />
+        <activity android:name=".SlpashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".Blog" />
+        <activity android:name=".Resume" />
+        <activity android:name=".Detailed_Activity" />
+        <activity android:name=".Information" />
+        <activity android:name=".All" />
+        <activity android:name=".Subscribe" />
+        <activity android:name=".Action"></activity>
+    </application>
+
+</manifest>
